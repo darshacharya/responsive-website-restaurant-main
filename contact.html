@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/contact.css">
+
+        <title>RK Caterers</title>
+        <link rel="shortcut icon" type="image" href="/assets/img/RKlogo.png">
+
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="/index.html" class="nav__logo"><img src="assets/img/RKlogo.png" ><div></div>RK Caterers</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="/index.html" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="/about.html" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="/gallery.html" class="nav__link">Gallery</a></li>
+                        <li class="nav__item"><a href="/menu.html" class="nav__link">Menu</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+
+                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+
+            
+            <!--========== contact ==========-->
+            <section class="contact section bd-container" id="contact">
+                <div class="contact__container bd-grid">
+                    <div class="contact__data">
+                        <span class="section-subtitle contact__initial">Let's get in touch</span>
+                        <h2 class="section-title contact__initial">Contact us</h2>
+                        <img src="/assets/img/contact2.svg">
+                        <p class="contact__description">If you want to reserve a table in our restaurant, contact us and we will attend you quickly, with our 24/7 chat service.</p><br>
+                            <ul>
+                                <!-- <li><img src="/assets/img/phone.png" class="icon">+91 9480954729, +91 9632381766</li>
+                                <li><img src="/assets/img/mail-open.png" class="icon"> rajkiranpoojary29@gmail.com</li> -->
+                                <li><a class="footer__link" href="tel:9480954729"><img src="/assets/img/phone.png" class="icon">+91 9480954729</a></li>
+                        <li><a class="footer__link" href="tel:9632381766"><img src="/assets/img/mail-open.png" class="icon">+91 9632381766</a></li>
+                                <li><img src="/assets/img/map-pin.png" class="icon"> Thirthahalli</li>
+                                <li>
+                                    <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                                    <a href="https://www.instagram.com/su_darsh_an_acharya/" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a><li>
+                            </ul>
+                    </div>
+                    <form action="https://api.web3forms.com/submit" method="POST"class="catering-form">
+                        <input type="hidden" name="access_key" value="93315300-bad7-4cf7-9a5c-7e183213cc3e">
+                        <h1>Book Your Event</h1>
+                        
+        <input type="text" name="client-name" id="client-name" required placeholder="Your Name">
+        
+        <input type="tel" id="phone_number" name="phone_number" pattern="[0-9]{10}" required placeholder="Phone number">
+
+        <input type="email" name="client-email" id="client-email" required placeholder="Your Email">
+                        <select name="event-type" id="event-type">
+                            <option value="birthday">Birthday</option>
+                            <option value="wedding">Wedding</option>
+                            <option value="corporate">Corporate</option>
+                            <option value="other">other</option>
+                        </select>
+                
+                        
+                        <input type="date" name="event-date" id="event-date" >
+                
+                        <!-- <label for="event-time">Event Time:</label>
+                        <input type="time" name="event-time" id="event-time"> -->
+                
+                        <input type="number" name="guest-count" id="guest-count" min="1" placeholder="Guest Count">
+                
+                        <!-- <label for="menu">Menu:</label>
+                        <select name="menu" id="menu">
+                            <option value="breakfast">Breakfast</option>
+                            <option value="lunch">Lunch</option>
+                            <option value="dinner">Dinner</option>
+                        </select> -->
+                
+                
+                        <textarea name="special-requests" id="special-requests" rows="4" placeholder="Special Requests:"></textarea>
+                
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </section>
+            <div class="contact__map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31011.966692604834!2d75.20688564597849!3d13.688392301681903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbb7186b7e9d489%3A0x979d35db30f94bb9!2sThirthahalli%2C%20Karnataka%20577432!5e0!3m2!1sen!2sin!4v1704389080186!5m2!1sen!2sin"  width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">RK Caterers</a>
+                    <span class="footer__description">Caterers</span>
+                    <div>
+                        <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/su_darsh_an_acharya/" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+
+                <!-- <div class="footer__content">
+                    <h3 class="footer__title">Services</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Delivery</a></li>
+                        <li><a href="#" class="footer__link">Pricing</a></li>
+                        <li><a href="#" class="footer__link">Fast food</a></li>
+                        <li><a href="#" class="footer__link">Reserve your spot</a></li>
+                    </ul>
+                </div> -->
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Quick Links</h3>
+                    <ul>
+                        <li><a href="/index.html" class="footer__link">Home</a></li>
+                        <li><a href="/about.html" class="footer__link">About us</a></li>
+                        <li><a href="/gallery.html" class="footer__link">Gallery</a></li>
+                        <li><a href="#" class="footer__link">Menu</a></li>
+                        <li><a href="/contact.html" class="footer__link">Contact us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Address</h3>
+                    <ul>
+                        <li>Thirthahalli</li>
+                        <li><a class="footer__link" href="tel:9480954729">+91 9480954729</a></li>
+                        <li><a class="footer__link" href="tel:9632381766">+91 9632381766</a></li>
+                        <li><a class="footer__link">rajkiranpoojary29@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2024 Sudarshan. All right reserved</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
